@@ -1,89 +1,113 @@
-Meal Selection Program
-Overview
-This Python script allows users to select a meal type from a menu and then choose a specific meal option from the corresponding list. The script provides detailed recipes and instructions for each choice.
+# Meal Selection Program
 
-Features
-Meal Selection: Users can choose from four meal types:
+## Overview
 
-Breakfast
-Lunch
-Dinner
-Snack
-Meal Options: For each meal type, users can select from a variety of options, with recipes and instructions provided for each choice.
+This Python script allows users to select a meal type from a menu and view detailed recipes and instructions for various meal options. The script supports four meal categories:
 
-How to Run
-Ensure you have Python installed: This script requires Python 3.x.
+- Breakfast
+- Lunch
+- Dinner
+- Snack
 
-Save the Script:
-Save the provided code to a file, for example, meal_selector.py.
+## Features
 
-Run the Script:
-Open your terminal or command prompt and navigate to the directory where the script is saved. Run the script using the following command:
+- **Meal Type Selection:** Choose from breakfast, lunch, dinner, or snack.
+- **Recipe Details:** Get detailed ingredients and instructions for each selected meal.
 
-bash
-Copy code
-python meal_selector.py
-Follow the Prompts:
-The script will prompt you to choose a meal type and then a specific meal option. Follow the on-screen instructions to view the recipe.
+## How to Run
 
-Example
-plaintext
-Copy code
+1. **Prerequisites:**
+    - Ensure Python 3.x is installed on your system.
+2. **Save the Script:**
+    - Save the provided code into a file named, for example, `meal_selector.py`.
+3. **Execute the Script:**
+    - Open your terminal or command prompt.
+    - Navigate to the directory where `meal_selector.py` is saved.
+    - Run the script using:
+        
+        ```bash
+        bashCopy code
+        python meal_selector.py
+        
+        ```
+        
+4. **Interaction:**
+    - Follow the on-screen prompts to select a meal type and then a specific meal option. The script will display the recipe and instructions.
+
+## Example
+
+```
+plaintextCopy code
     1 - Breakfast
     2 - Lunch
-    3 - Dinner 
+    3 - Dinner
     4 - Snack
-Select a meal type by entering the corresponding number. For example, entering 1 will show breakfast options. Then, choose an option by entering the number next to the desired meal. The script will display the recipe and instructions for the chosen meal.
 
-Available Options
-Breakfast
-Continental Breakfast
-American Breakfast
-English Breakfast
-Cereal
-Smoothies
-Oatmeal
-Breakfast Burritos/Wraps
-Yogurt Parfait
-Avocado Toast
-Pastries and Coffee
-Lunch
-BLT Sandwich
-Grilled Cheese
-Caesar Salad
-Greek Salad
-Margherita Pizza
-Spaghetti Bolognese
-Fettuccine Alfredo
-Cheeseburger
-Veggie Burger
-Chicken Caesar Wrap
-Hummus and Veggie Wrap
-Dinner
-Chicken Stir-Fry
-Beef Stroganoff
-Vegetarian Chili
-Lentil Soup
-Grilled Salmon
-Stuffed Bell Peppers
-Chicken Parmesan
-Eggplant Parmesan
-Shrimp Scampi
-Chicken Tikka Masala
-Snack
-Fruit Salad
-Cheese and Crackers
-Veggie Sticks with Dip
-Yogurt Parfait
-Popcorn
-Energy Balls
-Guacamole and Chips
-Hummus and Pita Bread
-Error Handling
-If an invalid meal type or option is chosen, the script will display an error message prompting the user to make a valid selection.
-Contributions
+```
+
+Select a meal type by entering the corresponding number (e.g., `1` for Breakfast). After that, choose a specific meal option from the list.
+
+## Available Options
+
+### Breakfast
+
+1. **Continental Breakfast**
+2. **American Breakfast**
+3. **English Breakfast**
+4. **Cereal**
+5. **Smoothies**
+6. **Oatmeal**
+7. **Breakfast Burritos/Wraps**
+8. **Yogurt Parfait**
+9. **Avocado Toast**
+10. **Pastries and Coffee**
+
+### Lunch
+
+1. **BLT Sandwich**
+2. **Grilled Cheese**
+3. **Caesar Salad**
+4. **Greek Salad**
+5. **Margherita Pizza**
+6. **Spaghetti Bolognese**
+7. **Fettuccine Alfredo**
+8. **Cheeseburger**
+9. **Veggie Burger**
+10. **Chicken Caesar Wrap**
+11. **Hummus and Veggie Wrap**
+
+### Dinner
+
+1. **Chicken Stir-Fry**
+2. **Beef Stroganoff**
+3. **Vegetarian Chili**
+4. **Lentil Soup**
+5. **Grilled Salmon**
+6. **Stuffed Bell Peppers**
+7. **Chicken Parmesan**
+8. **Eggplant Parmesan**
+9. **Shrimp Scampi**
+10. **Chicken Tikka Masala**
+
+### Snack
+
+1. **Fruit Salad**
+2. **Cheese and Crackers**
+3. **Veggie Sticks with Dip**
+4. **Yogurt Parfait**
+5. **Popcorn**
+6. **Energy Balls**
+7. **Guacamole and Chips**
+8. **Hummus and Pita Bread**
+
+## Error Handling
+
+- If an invalid choice is made, the script will prompt the user to select a valid option.
+
+## Contributions
+
 Feel free to fork this repository, make improvements, and submit pull requests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
